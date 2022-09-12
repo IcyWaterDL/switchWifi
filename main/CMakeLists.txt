@@ -1,0 +1,11 @@
+idf_component_register(SRCS "main.c"
+							"../main/Pair/QuickMode/SmartConfig.c"
+							"../main/Button/Button.c"
+							"../main/Pair/HttpServer/WebServer.c"
+							"../main/jsonUser/json_user.c"
+							"../main/SPIFFS/spiffs_user.c"
+							"../main/WiFi/WiFi_proc.c"
+							"../main/Mqtt/mqtt.c"
+							"../main/LED/led.c"
+							"common.c"
+		                    INCLUDE_DIRS "")
